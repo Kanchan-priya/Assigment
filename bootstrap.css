@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 779px) {
+    .nav{
+        
+        position: relative;
+    }
+    .navbar{
+        /* display: flex; */
+        width: 100%;
+        flex-direction: column;
+        position: absolute !important;
+        top: 30px;
+        left: 0;
+        background-color: #FA5C98;
+        color: #fff;
+        text-align: center;
+        
+       
+    }
+    #navbar{
+        display: none;
+    }
+    .menuIcon{
+        /* height: 30px; */
+        width: 20px;
+        display: block;
+    }
+    #close-icon{
+        display: none;
+    } 
+    .emailArearight{
+        position: relative;
+        width: 100%;
+    }  
+    .banner .text h1{
+        font-size: 20px !important;
+        /* margin-top: -121px; */
+    } 
+    .banner{
+        height: 150px;
+    }
+    .card img{
+        width: 150px;
+        height: 200px;
+    }
+    .card_content{
+        text-align: left;
+    }
+    .forshrink .disk{
+        /* flex-shrink: 0; */
+    width: 31%;
+
+    }
+    .pink .pink_image {
+        text-align: center !important;
+    }
+    .pink .pink_image img {
+        width: 158.692px;
+        height: 152.692px;
+    }
+  }

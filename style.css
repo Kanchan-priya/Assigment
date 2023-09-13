@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+font-family: 'Poppins', sans-serif;}
+.header p{
+    color: #301F4A;
+text-align: center;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 10px;
+}
+
+/* navbar */
+
+.navigation{
+
+
+}
+
+
+
+.nav ul li{
+    list-style: none;
+    padding: 5px;
+    font-size: 14px !important;
+}
+.nav ul ul {
+width: 165px;
+height: auto;
+background-color: #fff;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+display: none;
+position: absolute;
+z-index: 1;
+
+}
+.nav ul li:hover ul {
+display: block;
+z-index: 999;
+}
+.nav ul ul li{
+    padding: 5px;
+}
+
+
+/* .nav ul ul :hover li{
+    background-color: #FA5C98;
+} */
+ ul {
+    padding-left: 1rem;
+}
+.nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.nav ul ul li a{
+    color: #000;
+    text-decoration: none;
+}
+/* Navbar Css */
+.nav{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* height: 40px; */
+}
+.navbar{
+    
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+.menuIcon{
+    display: none;
+}
+
+
+
+.logo img{
+    width: 181.362px;
+    height: 62.92px;
+}
+.box{
+    display: flex;
+    margin-top: 17px;
+}
+.box .img img{
+    width: 77px;
+    height: 36px;
+}
+.box .form input{
+    padding: 9px;
+    width: 456px;
+    font-size: 10px;
+}
+.cart{
+    margin-top: 17px;
+}
+.profile{
+    margin-top: 17px;
+}
+.profile p{
+    color: #301F4A;
+font-family: Poppins;
+font-size: 12.67px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 10px;
+margin-top: 7px;
+
+}
+
+.banner{
+    background-image: url("images/image\ 2.png");
+    width: 100%;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.banner .text h1{
+    color: #000;
+
+font-size: 46px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.shop{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card{
+    border: none;
+}
+ .card_content{
+    text-align: center;
+    margin-top: 5px;
+}
+.card_content p{
+    color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.card_content span{
+    color: #FA5C98;
+font-family: Poppins;
+font-size: 1p5x;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.pink{
+    background-color: #FFF2F8;
+    width: 100%;
+    height: auto;
+}
+.pink h2{
+    text-align: center;
+    color: #000;
+font-family: Poppins;
+font-size:  34.592px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 15px;
+}
+.pink .pink_image{
+    text-align: right;
+}
+.pink .pink_image img{
+    width: 187.692px;
+    height: 183.692px;
+   
+}
+.pink_content img{
+    width: 20px;
+    height: 20px;
+}
+.pink_content p{
+    margin-left: 10px;
+    color: #000;
+font-family: Poppins;
+font-size: 12.923px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+/*form  */
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 7px;
+background: #FFF;
+box-shadow: 0px 4px 13px 0px rgba(190, 190, 190, 0.20);
+  }
+  .input-field:focus {
+    border: none !important;
+}
+  .icon {
+    padding: 10px;
+    /* background: dodgerblue; */
+    color: pink;
+    min-width: 50px;
+    text-align: center;
+    margin-top: 3px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn2 {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+
+/* slider */
+
+
+
+
+/* connect */
+
+.connect{
+    color: #000;
+font-family: Poppins;
+font-size: 36.592px;;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/*  Footer*/
+
+
+.footerTop{
+    background-color: #FA5C98;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.emailArealeft{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    
+}
+.emailArealeft i{
+    font-size: 30px;
+}
+.emailArearight{
+    position: relative;
+    width: 592px;
+}
+.subscribeBTN{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    background-color: #FA5C98 !important;
+    padding: 2px 10px !important;
+    color: #fff !important;
+    width: 100px;
+}
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    margin: 20px 0;
+}
+.footer-list{
+    list-style: none;
+    color: #fff;
+    font-size: 12px;
+}
+.listHeading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.socialMedia{
+    display: flex;
+    gap: 20px;
+}
+.socialMedia i{
+    background-color: #f1e5ea59;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card-b p:first-child{
+    text-align: center;
+}
+.card-b p:last-child{
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+}
+.hoo{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn1{
+    width: 126px;
+    height: 38px;
+    text-align: center;
+    border-radius: 7px;
+    color: #fff;
+    border: none;
+background: linear-gradient(90deg, #DC8064 -11.11%, #E98C70 6.02%, #FB9E82 23.14%, #FDBB9F 48.17%, #FFCAAE 63.98%, #F8AD92 78.48%, #F19176 95.6%);
+
+}
+
+
+.cus-Card img{
+    width: 279px;
+height: 340px;
+}
+.card-content p{
+    margin: 0;
+}
+.product-name{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FA5C98;
+}
+.product-name .product-discription{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rating i{
+    color: #FFBB0E;
+}
+.product-price{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #C0590E;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.pages{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.pages li{
+    padding: 5px 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+}
+.active-page{
+    color: #fff;
+    background-color: #E08468;
+}
+.nextBTN{
+    color: #E08468;
+}
